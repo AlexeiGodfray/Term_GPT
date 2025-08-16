@@ -1,0 +1,70 @@
+/* Body splits sidebar + main */
+#body {
+  height: 1fr;
+}
+
+/* Left sidebar */
+#sidebar {
+  width: 30;
+  min-width: 22;
+  border: tall $panel;
+}
+
+/* Tree fills sidebar; buttons stick to the bottom */
+#chat_tree {
+  height: 1fr;
+  padding: 1 1;
+}
+#sidebar_buttons {
+  dock: bottom;
+  padding: 1;
+  height: 3;
+  content-align: center middle;
+}
+#btn_new { margin-right: 1; 
+  background: green;
+  color: white;
+}
+#btn_delete {
+  background: red;
+  color: white;
+}
+
+/* Main area */
+#main {
+  width: 1fr;
+  padding: 0 1;
+}
+#tabs {
+  height: 1fr;
+  border: tall $surface;
+}
+#in {
+  height: 7;
+  dock: bottom;
+}
+
+/* Bubbles */
+.chat {
+  padding: 1 2;
+  height: 1fr;
+}
+
+.bubble {
+  margin: 1 0;
+  max-width: 80;
+  padding: 1 2;
+  border: tall $surface;
+}
+.bubble.user { align: right top; }
+.bubble.assistant { align: left top; }
+.bubble.system {
+  border: tall $panel;
+  text-style: italic;
+  color: $text-muted;
+}
+.bubble.status {
+  border: none;
+  color: $text-muted;
+  padding: 0 1;
+}
