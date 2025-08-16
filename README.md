@@ -116,7 +116,7 @@ Alternatively, export it in your shell:
 ## ▶️ Run it
 
 ```bash
-python app.py
+python main.py
 
 ```
 
