@@ -59,12 +59,12 @@ Prereqs:
 1. Clone this repo:
 
 ```bash
-git clone <https://github.com/yourname/tergpt.git>
-cd tergpt
+git clone <git@github.com:yourname/Term_GPT.git>
+cd Term_GPT
 
 ```
 
-1. (Optional) Create & activate a virtual environment:
+1. (Optional but recommended) Create & activate a virtual environment:
 
 ```bash
 python -m venv .venv
@@ -81,7 +81,7 @@ source .venv/bin/activate
 pip install textual openai python-dotenv
 
 ```
-
+- see requirements.txt for exact versions, just incase things break
 ---
 
 ## 🔑 Configure your API key
